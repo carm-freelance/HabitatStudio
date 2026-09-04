@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitat Studio - Especialistas en Reformas y Rehabilitación</title>
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons (Recommended over FontAwesome for clean UI) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                Habitat <span class="highlight">Studio</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="#contacto" class="btn btn-primary">Presupuesto</a>
+            </div>
+            
+            <button class="mobile-menu-btn" aria-label="Abrir menú">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <a href="#inicio" class="mobile-link">Inicio</a>
+        <a href="#servicios" class="mobile-link">Servicios</a>
+        <a href="#proyectos" class="mobile-link">Proyectos</a>
+        <a href="#nosotros" class="mobile-link">Nosotros</a>
+        <a href="#contacto" class="btn btn-primary">Presupuesto Online</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg">
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <span class="badge fade-in-up">Calidad y Confianza</span>
+            <h1 class="fade-in-up delay-1">Construimos<br>Espacios Increíbles</h1>
+            <p class="fade-in-up delay-2">Especialistas en reformas integrales, mantenimiento y rehabilitación de edificios. Transformamos tu visión en una realidad arquitectónica de primer nivel.</p>
+            <div class="hero-buttons fade-in-up delay-3">
+                <a href="#contacto" class="btn btn-primary btn-large">Solicitar Presupuesto</a>
+                <a href="#servicios" class="btn btn-secondary btn-large">Ver Servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-container reveal">
+            <div class="stat-card">
+                <div class="stat-number">15+</div>
+                <p>Años de Experiencia</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">500+</div>
+                <p>Proyectos Completados</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <p>Satisfacción</p>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">365</div>
+                <p>Días de Mantenimiento</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="section-header reveal">
+            <span class="subtitle">Nuestra Especialidad</span>
+            <h2>Servicios Destacados</h2>
+            <p>Soluciones arquitectónicas integrales para comunidades, particulares y empresas. Estándares de calidad excepcionales.</p>
+        </div>
+        
+        <div class="services-grid">
+            
+            <!-- Large Card -->
+            <div class="service-card card-large reveal">
+                <div class="card-image service-reforma-img"></div>
+                <div class="card-content">
+                    <div class="icon-box"><i class="ph ph-house-line ph-2x"></i></div>
+                    <h3>Reformas Integrales</h3>
+                    <p>Renovación completa de viviendas, apartamentos, baños y cocinas. Seleccionamos materiales de primera calidad para acabados perfectos y duraderos.</p>
+                    <a href="#contacto" class="link-arrow">Solicitar valoración <i class="ph ph-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Medium Card -->
+            <div class="service-card card-medium reveal delay-1">
+                <div class="card-image service-fachada-img"></div>
+                <div class="card-content">
+                    <div class="icon-box"><i class="ph ph-buildings ph-2x"></i></div>
+                    <h3>Rehabilitación</h3>
+                    <p>Restauración de fachadas, estructuras y zonas comunes.</p>
+                    <a href="#contacto" class="link-arrow">Saber más <i class="ph ph-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Small Cards -->
+            <div class="service-card card-small reveal">
+                <div class="card-content bg-surface">
+                    <div class="icon-box"><i class="ph ph-drop ph-2x"></i></div>
+                    <h3>Fontanería y Pintura</h3>
+                    <p>Instalaciones técnicas y acabados profesionales de pintura.</p>
+                </div>
+            </div>
+            
+            <div class="service-card card-small reveal delay-1">
+                <div class="card-content bg-surface">
+                    <div class="icon-box"><i class="ph ph-wrench ph-2x"></i></div>
+                    <h3>Mantenimiento</h3>
+                    <p>Gestión y mantenimiento integral para la longevidad del edificio.</p>
+                </div>
+            </div>
+
+            <div class="service-card card-small reveal delay-2">
+                <div class="card-content card-content-dark">
+                    <h3>Obra General</h3>
+                    <p>Coordinación de gremios y tramitación de licencias.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects">
+        <div class="section-header reveal">
+            <span class="subtitle">Nuestro Portafolio</span>
+            <h2>Proyectos Realizados</h2>
+            <p>Una muestra de los espacios que hemos transformado con precisión técnica y atención al detalle.</p>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-image project-img-1"></div>
+                <div class="project-overlay">
+                    <span class="project-tag">Reforma Integral</span>
+                    <h3>Vivienda Unifamiliar</h3>
+                </div>
+            </div>
+            <div class="project-card reveal delay-1">
+                <div class="project-image project-img-2"></div>
+                <div class="project-overlay">
+                    <span class="project-tag">Reforma de Interiores</span>
+                    <h3>Apartamento Centro Urbano</h3>
+                </div>
+            </div>
+            <div class="project-card reveal delay-2">
+                <div class="project-image project-img-3"></div>
+                <div class="project-overlay">
+                    <span class="project-tag">Rehabilitación</span>
+                    <h3>Fachada Edificio Residencial</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="about-container reveal">
+            <div class="about-image">
+                <div class="about-img-main"></div>
+            </div>
+            <div class="about-content">
+                <span class="subtitle">Sobre Nosotros</span>
+                <h2>Construyendo Confianza desde Hace 15 Años</h2>
+                <p>En Habitat Studio combinamos experiencia técnica y diseño arquitectónico para transformar espacios residenciales y comunitarios. Nuestro equipo multidisciplinar acompaña cada proyecto desde la primera visita hasta la entrega final, garantizando calidad, plazos y transparencia en cada fase.</p>
+                <ul class="about-list">
+                    <li><i class="ph ph-check-circle ph-lg"></i> Equipo técnico certificado</li>
+                    <li><i class="ph ph-check-circle ph-lg"></i> Materiales de primera calidad</li>
+                    <li><i class="ph ph-check-circle ph-lg"></i> Garantía en todos nuestros trabajos</li>
+                </ul>
+                <a href="#contacto" class="btn btn-primary">Conoce Nuestro Trabajo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="contact-container reveal">
+            <div class="contact-info">
+                <h2>Comienza tu Proyecto</h2>
+                <p>Estás a un paso de hacer realidad el espacio que imaginas. Nuestro equipo técnico está preparado para asesorarte sin compromiso.</p>
+                
+                <ul class="contact-list">
+                    <li>
+                        <i class="ph ph-map-pin ph-xl"></i>
+                        <div>
+                            <strong>Visítanos</strong>
+                            <span>Tu Dirección, Ciudad, España</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph ph-phone ph-xl"></i>
+                        <div>
+                            <strong>Llámanos</strong>
+                            <span>+34 900 000 000</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph ph-envelope-simple ph-xl"></i>
+                        <div>
+                            <strong>Escríbenos</strong>
+                            <span>info@email.com</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="contact-form-wrapper">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" required placeholder="Ej. Juan Pérez">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" required placeholder="juan@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Tipo de Proyecto</label>
+                        <select id="service">
+                            <option>Reforma Integral</option>
+                            <option>Rehabilitación de Edificio</option>
+                            <option>Fontanería / Pintura</option>
+                            <option>Mantenimiento</option>
+                            <option>Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Detalles Breves</label>
+                        <textarea id="message" rows="4" required placeholder="Cuéntanos sobre tu idea..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Solicitud</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <a href="#" class="logo-footer">Habitat Studio</a>
+                <p>Especialistas en transformar espacios con excelencia en construcción y reformas arquitectónicas.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="ph ph-facebook-logo ph-lg"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo ph-lg"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="ph ph-linkedin-logo ph-lg"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Empresa</h4>
+                <a href="#inicio">Inicio</a>
+                <a href="#nosotros">Sobre Nosotros</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="footer-col">
+                <h4>Servicios</h4>
+                <a href="#servicios">Reformas Integrales</a>
+                <a href="#servicios">Rehabilitación</a>
+                <a href="#servicios">Fontanería y Pintura</a>
+                <a href="#servicios">Obra General</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Habitat Studio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
