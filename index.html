@@ -253,6 +253,10 @@
                         <label for="message">Detalles Breves</label>
                         <textarea id="message" rows="4" required placeholder="Cuéntanos sobre tu idea..."></textarea>
                     </div>
+                    <div class="form-group form-checkbox">
+                        <input type="checkbox" id="privacy-consent" required>
+                        <label for="privacy-consent">He leído y acepto la <a href="politica-privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>. Autorizo el tratamiento de mis datos para responder a mi solicitud.</label>
+                    </div>
                     <button type="submit" class="btn btn-primary btn-block">Enviar Solicitud</button>
                 </form>
             </div>
@@ -288,9 +292,16 @@
         </div>
         <div class="footer-bottom">
             <p>&copy; 2026 Habitat Studio. Todos los derechos reservados.</p>
+            <div class="footer-legal">
+                <a href="aviso-legal.html">Aviso Legal</a>
+                <a href="politica-privacidad.html">Política de Privacidad</a>
+                <a href="politica-cookies.html">Política de Cookies</a>
+                <a href="#" class="js-open-cookie-preferences">Configurar Cookies</a>
+            </div>
         </div>
     </footer>
 
     <script src="main.js"></script>
+    <script src="cookies.js"></script>
 </body>
 </html>

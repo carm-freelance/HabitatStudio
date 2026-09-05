@@ -98,8 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // 6. Contact Form Submission (Demo)
     const contactForm = document.querySelector('.contact-form');
 
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        alert('Formulario enviado con éxito (Demo).');
-    });
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Formulario enviado con éxito (Demo).');
+        });
+    }
 });
